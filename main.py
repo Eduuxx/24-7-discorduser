@@ -12,7 +12,7 @@ client = commands.Bot(
 
 @client.event
 async def on_connect():
-  await client.change_presence(status = discord.Status.dnd)
+  await client.change_presence(status = discord.Status.online) //Change your presence status by ''discord.Status.online, discord.Status.dnd, discord.Status.idle'' 
 
 
 keep_alive.keep_alive()
